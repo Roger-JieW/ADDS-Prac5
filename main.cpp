@@ -24,7 +24,6 @@ int main()
     vector<int> L1;
 
     int myArray[] = {6, -11, 53, -16, 73, 128, 105, 104, -71, -179, 102, 12, 21, -145, -99, 199,-156, -186, 43, -189};
-    int myArray2[] = {-5, -24, -123, -81, 200, 157, 84, 67, -83, -60, -72, 192, -25, -20, -50, -181,-70, -15, -108, -123};
     for(int i = 0; i<20; i++)
     {
         myVect.push_back(myArray[i]);
@@ -32,7 +31,6 @@ int main()
     
 
     MapTriple *triple = new MapTriple();
-    MapSquare *square = new MapSquare();
     MapAbsoluteValue *absolute = new MapAbsoluteValue();
 
     temp = triple->map(myVect);
@@ -43,7 +41,6 @@ int main()
     // }
     //cout<<endl;
     FilterOdd *odd = new FilterOdd();
-    FilterNonPositive *nonPositive = new FilterNonPositive();
     FilterForTwoDigitPositive *twoDigits = new FilterForTwoDigitPositive();
     vector<int> temp2;
     vector<int> L11;
