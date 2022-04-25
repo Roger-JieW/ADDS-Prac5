@@ -22,11 +22,12 @@ int main()
     vector<int> myVect; 
     vector<int> temp;
     vector<int> L1;
+    int temp0;
 
-    int myArray[] = {6, -11, 53, -16, 73, 128, 105, 104, -71, -179, 102, 12, 21, -145, -99, 199,-156, -186, 43, -189};
-    for(int i = 0; i<20; i++)
+    while(cin>> temp0)
     {
-        myVect.push_back(myArray[i]);
+        myVect.push_back(temp0);
+        if (cin.get() == '\n')break;
     }
     
 
