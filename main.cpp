@@ -18,7 +18,6 @@ using namespace std;
 
 int main()
 {
-
     vector<int> myVect; 
     vector<int> temp;
     vector<int> L1;
@@ -30,17 +29,12 @@ int main()
         if (cin.get() == '\n')break;
     }
     
-
     MapTriple *triple = new MapTriple();
     MapAbsoluteValue *absolute = new MapAbsoluteValue();
 
     temp = triple->map(myVect);
     L1 = absolute->map(temp);
-    // for(int i = 0; i<L1.size(); i++)
-    // {
-    //     cout<<L1[i]<<" ";
-    // }
-    //cout<<endl;
+
     FilterOdd *odd = new FilterOdd();
     FilterForTwoDigitPositive *twoDigits = new FilterForTwoDigitPositive();
     vector<int> temp2;
@@ -48,11 +42,6 @@ int main()
 
     temp2 = odd->filter(L1);
     L11 = twoDigits->filter(temp2);
-
-    // for(int i = 0; i<L11.size(); i++)
-    // {
-    //     cout<<L11[i]<<" ";
-    // }
 
     ReduceMinimum *minimum = new ReduceMinimum();
     ReduceGCD *gcd = new ReduceGCD();
