@@ -1,6 +1,6 @@
-#ifndef REDUCE_H
-#define REDUCE_H
-#include<vector>
+#ifndef REDUCEGENERIC_H
+#define REDUCEGENERIC_H
+#include <vector>
 using namespace std;
 class ReduceGeneric{
 
@@ -13,36 +13,6 @@ class ReduceGeneric{
 
 
 };
-
-class ReduceMinimum : public ReduceGeneric {
-
-public:
-ReduceMinimum();
-int binaryOperator(int, int);
-
-};
-
-class ReduceGCD : public ReduceGeneric{
-public: 
-ReduceGCD();
-int binaryOperator(int, int);
-
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #endif

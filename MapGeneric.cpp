@@ -20,24 +20,3 @@ vector<int> MapGeneric::map(vector<int> inputs){
 
    return result; 
 }
-
-MapTriple:: MapTriple(){};
-
-int MapTriple:: f(int x){
-    return 3 * x ;
-}
-
-
-MapSquare:: MapSquare(){};
-
-int MapSquare:: f(int x)
-{
-    return x * x;
-}
-
-MapAbsoluteValue:: MapAbsoluteValue(){};
-
-int MapAbsoluteValue:: f(int x){
-
-    return abs(x);
-}

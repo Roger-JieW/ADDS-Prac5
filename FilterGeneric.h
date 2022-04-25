@@ -1,7 +1,8 @@
-#ifndef FILTER_H
-#define FILTER_H
+#ifndef FILTERGENERIC_H
+#define FILTERGENERIC_H
 #include<vector>
 using namespace std;
+
 class FilterGeneric{
 
     virtual bool g(int) = 0;
@@ -13,41 +14,6 @@ class FilterGeneric{
 
 
 };
-
-class FilterOdd : public FilterGeneric {
-
-public:
-FilterOdd();
-bool g(int);
-
-};
-
-class FilterNonPositive : public FilterGeneric{
-public: 
-FilterNonPositive();
-bool g(int);
-
-};
-
-class FilterForTwoDigitPositive : public FilterGeneric{
-public:   
-FilterForTwoDigitPositive();
-bool g(int);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

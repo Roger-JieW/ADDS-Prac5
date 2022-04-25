@@ -1,8 +1,17 @@
 #include<iostream>
 #include<vector>
 #include "FilterGeneric.h"
+#include "FilterOdd.h"
+#include "FilterNonPositive.h"
+#include "FilterForTwoDigitPositive.h"
 #include "MapGeneric.h"
+#include "MapSquare.h"
+#include "MapTriple.h"
+#include "MapAbsoluteValue.h"
 #include "ReduceGeneric.h"
+#include "ReduceMinimum.h"
+#include "ReduceGCD.h"
+
 using namespace std; 
 
 
