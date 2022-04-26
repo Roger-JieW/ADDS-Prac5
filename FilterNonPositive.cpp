@@ -1,6 +1,6 @@
-#include<iostream>
-#include<vector>
-#include "FilterGeneric.h"
+#include <iostream>
+#include <vector>
+//#include "FilterGeneric.h"
 #include "FilterNonPositive.h"
 
 using namespace std;

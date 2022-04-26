@@ -1,6 +1,6 @@
 #ifndef FILTERNONPOSITIVE_H
 #define FILTERNONPOSITIVE_H
-#include<vector>
+#include <vector>
 #include "FilterGeneric.h"
 
 using namespace std;

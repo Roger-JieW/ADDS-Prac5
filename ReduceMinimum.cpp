@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include "ReduceGeneric.h"
+//#include "ReduceGeneric.h"
 #include "ReduceMinimum.h"
 
 using namespace std;

@@ -1,5 +1,5 @@
 #include<iostream>
-#include "MapGeneric.h"
+//#include "MapGeneric.h"
 #include "MapTriple.h"
 
 using namespace std;

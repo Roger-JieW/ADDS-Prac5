@@ -1,7 +1,6 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 #include "FilterGeneric.h"
-#include<cmath>
 using namespace std;
 
 

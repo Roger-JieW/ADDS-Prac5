@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include "MapGeneric.h"
-#include<cmath>
 using namespace std;
 
 MapGeneric :: MapGeneric(){};

@@ -1,6 +1,6 @@
 #ifndef FILTERODD_H
 #define FILTERODD_H
-#include<vector>
+#include <vector>
 #include "FilterGeneric.h"
 
 using namespace std;

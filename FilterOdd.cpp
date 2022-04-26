@@ -1,11 +1,9 @@
-#include<iostream>
-#include<vector>
-#include "FilterGeneric.h"
+#include <iostream>
+#include <vector>
+//#include "FilterGeneric.h"
 #include "FilterOdd.h"
 
 using namespace std;
-
-
 
 FilterOdd:: FilterOdd(){};
 

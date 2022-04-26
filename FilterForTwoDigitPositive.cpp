@@ -1,6 +1,6 @@
-#include<iostream>
-#include<vector>
-#include "FilterGeneric.h"
+#include <iostream>
+#include <vector>
+//#include "FilterGeneric.h"
 #include "FilterForTwoDigitPositive.h"
 
 using namespace std;

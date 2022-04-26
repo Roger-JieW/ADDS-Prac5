@@ -1,9 +1,8 @@
-#include<iostream>
-#include "MapGeneric.h"
+#include <iostream>
+//#include "MapGeneric.h"
 #include "MapAbsoluteValue.h"
 
 using namespace std;
-
 
 MapAbsoluteValue:: MapAbsoluteValue(){};
 
